@@ -5,46 +5,46 @@ const theme = createTheme({
     fontFamily: 'IBMPlexSansRegular',
     h1: {
       color: '#626262',
-      fontFamily: 'IBMPlexSansMedium',
+      fontFamily: 'IBMPlexSansRegular',
       fontSize: '2.25rem',
       fontWeight: 400,
     },
     h2: {
-      color: '#505050',
-      fontFamily: 'IBMPlexSansSemiBold',
+      color: '#626262',
+      fontFamily: 'IBMPlexSansRegular',
       fontSize: '2rem'
     },
     h4: {
-      color: '#646464',
-      fontFamily: 'IBMPlexSansSemiBold',
+      color: '#626262',
+      fontFamily: 'IBMPlexSansRegular',
       fontSize: '1.5rem',
       fontWeight: 400,
     },
     h5: {
-      color: '#646464',
+      color: '#626262',
       fontFamily: 'IBMPlexSansMedium',
       fontSize: '1.25rem',
       fontWeight: 400,
 
     },
     h6: {
-      color: '#646464',
+      color: '#626262',
       fontFamily: 'IBMPlexSansRegular',
       fontSize: '1.25rem',
       letterSpacing: 4
     },
     subtitle1: {
-      color: '#646464',
+      color: '#626262',
       fontFamily: 'IBMPlexSansMedium',
       fontSize: '1rem',
     },
     body1: {
-      color: '#646464',
+      color: '#626262',
       fontFamily: 'IBMPlexSansRegular',
       fontSize: '1rem',
     },
     allVariants: {
-      color: '#646464',
+      color: '#626262',
     }
   },
   components: {

@@ -29,10 +29,10 @@ const HomeView: React.FC = () => {
           <Typography align="center" variant="h1" sx={{letterSpacing: 8, textTransform: 'uppercase'}}>Dion Übelacker</Typography>
         </Grid>
         <Grid>
-          <Typography align="center" variant="h5" sx={{letterSpacing: 4, textTransform: 'uppercase'}}>Software Engineer</Typography>
+          <Typography align="center" variant="h6" sx={{letterSpacing: 4, textTransform: 'uppercase'}}>Software Engineer</Typography>
         </Grid>
       </Grid>
-      <Box sx={{height: 8, backgroundColor: '#eaeaea'}} />
+      <Box sx={{height: 6, backgroundColor: '#f1f1f1'}} />
       <Grid container direction='row' sx={{ flexWrap: { xs: 'wrap', sm: 'nowrap' } }} gap={8}>
         <Grid container size={{xs: 12}} sx={{width: { sm: 300 }, flexShrink: { sm: 0 }, padding: 2}} direction='column'>
           <Grid>

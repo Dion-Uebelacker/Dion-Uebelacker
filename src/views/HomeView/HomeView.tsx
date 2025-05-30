@@ -12,9 +12,14 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
+import BottomNavigation from '@mui/material/BottomNavigation';
+import BottomNavigationAction from '@mui/material/BottomNavigationAction';
+import {useNavigate} from "react-router-dom";
 
 
 const HomeView: React.FC = () => {
+  const navigate = useNavigate()
+
   return (
     <Grid container direction='column'>
       <Grid pt={2} pb={2} container direction='column' justifyContent='center' alignItems='center' gap={1}>
@@ -154,25 +159,25 @@ const HomeView: React.FC = () => {
                   <Typography mt={1} variant="subtitle1">Responsibilities</Typography>
                   <List component="ul" dense>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Designing, evaluating, and continuously refining the software architecture" />
+                      <ListItemText sx={{fontSize: '1rem'}} primary="- Designing, evaluating, and continuously refining the software architecture" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Defining the technical Roadmap and prioritizing work packages" />
+                      <ListItemText sx={{fontSize: '1rem'}} primary="- Defining the technical Roadmap and prioritizing work packages" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Defining the technical Roadmap and prioritizing work packages" />
+                      <ListItemText sx={{fontSize: '1rem'}} primary="- Defining the technical Roadmap and prioritizing work packages" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Coaching and Guiding other developers, promoting best practices and fostering a culture of continuous learning" />
+                      <ListItemText sx={{fontSize: '1rem'}} primary="- Coaching and Guiding other developers, promoting best practices and fostering a culture of continuous learning" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Acting as the technical point of contact for Product Owners, project managers, and Clients" />
+                      <ListItemText sx={{fontSize: '1rem'}} primary="- Acting as the technical point of contact for Product Owners, project managers, and Clients" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Proactively identifying technical risks, initiating mitigation, and escalating critical issues" />
+                      <ListItemText sx={{fontSize: '1rem'}} primary="- Proactively identifying technical risks, initiating mitigation, and escalating critical issues" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Maintaining architecture diagrams and API specs, and organizing workshops or brown-bag sessions for knowledge Transfer" />
+                      <ListItemText sx={{fontSize: '1rem'}} primary="- Maintaining architecture diagrams and API specs, and organizing workshops or brown-bag sessions for knowledge Transfer" />
                     </ListItem>
                   </List>
                 </TimelineContent>
@@ -265,7 +270,7 @@ const HomeView: React.FC = () => {
                       <ListItemText primary="- Planning and implementation of an event-driven System with the Axon Framework" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Setup and support of the Continuous Delivery Pipeline" />
+                      <ListItemText sx={{fontSize: '1rem'}} primary="- Setup and support of the Continuous Delivery Pipeline" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
                       <ListItemText primary="- Implementation of the backend with Spring Boot & Kotlin" />
@@ -278,6 +283,17 @@ const HomeView: React.FC = () => {
               </TimelineItem>
             </Timeline>
           </Grid>
+        </Grid>
+      </Grid>
+      <Grid container justifyContent='center' gap={4} alignItems='center' mt={2} mb={2}>
+        <Grid>
+          <Link component="button" onClick={() => navigate('/imprint')}>Imprint</Link>
+        </Grid>
+        <Grid>
+          <Link component="button"  onClick={() => navigate('/privacy')}>Privacy</Link>
+        </Grid>
+        <Grid>
+          <Link component="button">German Version</Link>
         </Grid>
       </Grid>
     </Grid>

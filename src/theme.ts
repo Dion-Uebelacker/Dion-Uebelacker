@@ -48,6 +48,31 @@ const theme = createTheme({
     }
   },
   components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          fontFamily: 'IBMPlexSansRegular'
+        },
+        text: {
+          fontFamily: 'IBMPlexSansRegular'
+        }
+      }
+    },
+    MuiLink: {
+      defaultProps: {
+        variant: 'body2',
+      },
+      styleOverrides: {
+        root: {
+          fontFamily: 'IBMPlexSansRegular',
+          textDecoration: 'none',
+          color: '#626262',
+        },
+        text: {
+          fontFamily: 'IBMPlexSansRegular'
+        }
+      }
+    },
     MuiCssBaseline: {
       styleOverrides: `
       html,body{

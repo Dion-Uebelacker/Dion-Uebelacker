@@ -53,9 +53,6 @@ const theme = createTheme({
         root: {
           fontFamily: 'IBMPlexSansRegular'
         },
-        text: {
-          fontFamily: 'IBMPlexSansRegular'
-        }
       }
     },
     MuiLink: {
@@ -68,9 +65,6 @@ const theme = createTheme({
           textDecoration: 'none',
           color: '#626262',
         },
-        text: {
-          fontFamily: 'IBMPlexSansRegular'
-        }
       }
     },
     MuiCssBaseline: {

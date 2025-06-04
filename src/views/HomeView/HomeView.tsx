@@ -156,26 +156,26 @@ const HomeView: React.FC = () => {
                   <Typography variant="body1">Java, Spring Boot, React, Openshift, New Relic</Typography>
                   <Typography mt={1} variant="subtitle1">Responsibilities</Typography>
                   <List component="ul" dense>
-                    <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText sx={{fontSize: '1rem'}} primary="- Designing, evaluating, and continuously refining the software architecture" />
+                    <ListItem component="li" sx={{ display: 'list-item' }} >
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Designing, evaluating, and continuously refining the software architecture" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText sx={{fontSize: '1rem'}} primary="- Defining the technical Roadmap and prioritizing work packages" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} sx={{fontSize: '1rem'}} primary="- Defining the technical Roadmap and prioritizing work packages" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText sx={{fontSize: '1rem'}} primary="- Defining the technical Roadmap and prioritizing work packages" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} sx={{fontSize: '1rem'}} primary="- Defining the technical Roadmap and prioritizing work packages" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText sx={{fontSize: '1rem'}} primary="- Coaching and Guiding other developers, promoting best practices and fostering a culture of continuous learning" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} sx={{fontSize: '1rem'}} primary="- Coaching and Guiding other developers, promoting best practices and fostering a culture of continuous learning" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText sx={{fontSize: '1rem'}} primary="- Acting as the technical point of contact for Product Owners, project managers, and Clients" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} sx={{fontSize: '1rem'}} primary="- Acting as the technical point of contact for Product Owners, project managers, and Clients" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText sx={{fontSize: '1rem'}} primary="- Proactively identifying technical risks, initiating mitigation, and escalating critical issues" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} sx={{fontSize: '1rem'}} primary="- Proactively identifying technical risks, initiating mitigation, and escalating critical issues" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText sx={{fontSize: '1rem'}} primary="- Maintaining architecture diagrams and API specs, and organizing workshops or brown-bag sessions for knowledge Transfer" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} sx={{fontSize: '1rem'}} primary="- Maintaining architecture diagrams and API specs, and organizing workshops or brown-bag sessions for knowledge Transfer" />
                     </ListItem>
                   </List>
                 </TimelineContent>
@@ -194,22 +194,22 @@ const HomeView: React.FC = () => {
                   <Typography mt={1} variant="subtitle1">Responsibilities</Typography>
                   <List component="ul" dense>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Designing, evaluating, and continuously refining the software architecture" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Designing, evaluating, and continuously refining the software architecture" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Defining the technical Roadmap and prioritizing work packages" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Defining the technical Roadmap and prioritizing work packages" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Coaching and Guiding other developers, promoting best practices and fostering a culture of continuous learning" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Coaching and Guiding other developers, promoting best practices and fostering a culture of continuous learning" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Acting as the technical point of contact for Product Owners, project managers, and Clients" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Acting as the technical point of contact for Product Owners, project managers, and Clients" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Proactively identifying technical risks, initiating mitigation, and escalating critical issues" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Proactively identifying technical risks, initiating mitigation, and escalating critical issues" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Maintaining architecture diagrams and API specs, and organizing workshops or brown-bag sessions for knowledge Transfer" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Maintaining architecture diagrams and API specs, and organizing workshops or brown-bag sessions for knowledge Transfer" />
                     </ListItem>
                   </List>
                 </TimelineContent>
@@ -228,19 +228,19 @@ const HomeView: React.FC = () => {
                   <Typography mt={1} variant="subtitle1">Responsibilities</Typography>
                   <List component="ul" dense>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Evaluation and selection of Technologies" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Evaluation and selection of Technologies" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Implementation of the backend with Spring Boot & Java" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Implementation of the backend with Spring Boot & Java" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Implementation of the web frontend with React & Typescript" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Implementation of the web frontend with React & Typescript" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Documentation of processes for the development" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Documentation of processes for the development" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Building and optimizing the CI/CD Pipelines" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Building and optimizing the CI/CD Pipelines" />
                     </ListItem>
                   </List>
                 </TimelineContent>
@@ -259,22 +259,22 @@ const HomeView: React.FC = () => {
                   <Typography mt={1} variant="subtitle1">Responsibilities</Typography>
                   <List component="ul" dense>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Evaluation and selection of technologies" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Evaluation and selection of technologies" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Modeling and implementation of BPMN processes with Camunda" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Modeling and implementation of BPMN processes with Camunda" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Planning and implementation of an event-driven System with the Axon Framework" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Planning and implementation of an event-driven System with the Axon Framework" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText sx={{fontSize: '1rem'}} primary="- Setup and support of the Continuous Delivery Pipeline" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} sx={{fontSize: '1rem'}} primary="- Setup and support of the Continuous Delivery Pipeline" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Implementation of the backend with Spring Boot & Kotlin" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Implementation of the backend with Spring Boot & Kotlin" />
                     </ListItem>
                     <ListItem component="li" sx={{ display: 'list-item' }}>
-                      <ListItemText primary="- Implementation of the frontend with Angular2+ & Typescript" />
+                      <ListItemText slotProps={{ primary: {fontSize: '1rem'}}} primary="- Implementation of the frontend with Angular2+ & Typescript" />
                     </ListItem>
                   </List>
                 </TimelineContent>
